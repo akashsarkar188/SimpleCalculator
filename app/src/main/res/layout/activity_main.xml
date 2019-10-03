@@ -9,11 +9,11 @@
     <TextView
         android:id="@+id/mainTxt"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="150dp"
         android:text="56+89"
         android:textColor="#000"
         android:stateListAnimator="@android:anim/slide_in_left"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:gravity="bottom|end"
         android:padding="5dp"/>
 
@@ -34,7 +34,6 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/seven"
-                
                 android:text="7"
                 android:textSize="30sp"
                 app:cornerRadius="0dp"
